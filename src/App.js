@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import Bitcoin from "./components/Bitcoin";
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      ₿itcoin Price App
+      <Bitcoin />
     </div>
   );
 }
